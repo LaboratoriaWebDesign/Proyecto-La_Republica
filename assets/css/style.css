@@ -1,0 +1,125 @@
+*{
+  /*outline: 1px solid black;*/
+  padding: 0;
+  margin: 0;
+}
+.buscar {
+  background: blue;
+  margin-left: 80%;
+  padding: 4px;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-top: 4px;
+}
+
+.icon-twitter{
+  display: inline;
+  position: relative;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 600px;
+    margin-top:10px;
+
+  }
+
+.icon-facebook2{
+  display: inline;
+  position: relative;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top:2px;
+
+}
+.icon-instagram{
+  display: inline;
+  position: fixed;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top:2px;
+
+}
+.icon-youtube{
+  display: inline;
+  position: relative;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top:2px;
+}
+#header{
+position:fixed;
+width: 85em;
+height: 8em;
+top: 0;
+color: #fff;
+background-color:#CD0000;
+
+}
+
+.logo{
+  position: flex;
+  /*display: inline-block;*/
+	left: 0;
+	margin-top: 20px;
+	width: 90px;
+	height: 80px;
+	padding: 0.4% 10%;
+  margin-left: 40px;
+	background-repeat : no-repeat;
+  background-image: url(../img/logo.png);
+}
+ul {
+  background-color:#434343;
+  margin-top: 0;
+  font-family: arial;
+  width:85em;
+  height: 3em;
+}
+.opciones a {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+
+
+}
+li{
+    display: inline-block;
+    padding: 15px;
+    list-style: none;
+
+}
+a{
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 8px;
+
+}
+
+
+option{
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+}
+
+
+.enlaces {
+  margin-top: 98px;
+
+}
+.texto1{
+
+  position: flex;
+  width: 100px;
+  height: 80px;
+  margin-top: 80px;
+
+}
+.odebrecht img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
