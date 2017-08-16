@@ -4,12 +4,8 @@
   margin: 0;
 }
 .buscar {
-  background: blue;
-  margin-left: 80%;
-  padding: 4px;
+  background: white;
   position: relative;
-  width: 60px;
-  height: 60px;
   margin-top: 4px;
 }
 
@@ -19,7 +15,7 @@
     font-size: 30px;
     color: #fff;
     margin-left: 600px;
-    margin-top:10px;
+    margin-top:20px;
 
   }
 
@@ -34,7 +30,7 @@
 }
 .icon-instagram{
   display: inline;
-  position: fixed;
+  position: relative;
     font-size: 30px;
     color: #fff;
     margin-left: 20px;
@@ -49,40 +45,63 @@
     margin-left: 20px;
     margin-top:2px;
 }
-#header{
-position:fixed;
+.icons-prins{
+  top: 0;
+  position: absolute;
+}
+header{
+position: fixed;
+background: white;
 width: 85em;
 height: 8em;
 top: 0;
-color: #fff;
+/*color: #fff;*/
 background-color:#CD0000;
 
+}
+.buscar{
+  margin-top: 0px;
+  margin-left: 80%;
+  position: absolute;
 }
 
 .logo{
   position: flex;
-  /*display: inline-block;*/
 	left: 0;
 	margin-top: 20px;
 	width: 90px;
-	height: 80px;
+	height: 50px;
 	padding: 0.4% 10%;
   margin-left: 40px;
 	background-repeat : no-repeat;
   background-image: url(../img/logo.png);
 }
+.logo img{
+  display: inline;
+  position: flex;
+  color: #fff;
+  margin-left: 80%;
+}
+
 ul {
   background-color:#434343;
-  margin-top: 0;
+  margin-top:0px;
   font-family: arial;
   width:85em;
   height: 3em;
+  margin-left: 0;
+  position: fixed;
+  display: block;
+}
+.enlaces{
+  top: 20px;
+position: absolute;
 }
 .opciones a {
   text-decoration: none;
   margin-left: 20px;
   margin-right: 20px;
-
+background-color:  2px solid white;
 
 }
 li{
@@ -91,14 +110,15 @@ li{
     list-style: none;
 
 }
+li:hover{
+    background-color: red;
+}
 a{
     color:whitesmoke;
     text-decoration: none;
     padding: 8px;
 
 }
-
-
 option{
   background-color: #fff;
   width: 40px;
@@ -110,16 +130,134 @@ option{
   margin-top: 98px;
 
 }
-.texto1{
+section{
+  margin-right: 10px;
+  width: 80em;
+  height:90em;
+   margin-left: 20px;
+   margin-right:20px;
+}
+.texto1 {
+   color: #fff;
+    background: #434343;
+    height:300px;
+    width: 240px;
+    font-size: 30px;
+    margin-top: 360px;
+    display: flex;
+}
+.texto1 span{
 
-  position: flex;
-  width: 100px;
-  height: 80px;
-  margin-top: 80px;
+  color: white;
+  margin-top: 100%;
+  margin-left: 2px;
+  padding: 1px;
+  display: flex;
+  font-size:20px;
 
 }
-.odebrecht img{
-  position: absolute;
-  width: 100px;
+.texto2 {
+  color: #fff;
+   background: #434343;
+    height:200px;
+    width: 280px;
+    font-size: 20px;
+    margin-top: 220px;
+    display: flex;
+    float: left;
+    margin-left: 3px;
+
+
+}
+.texto2 span{
+  margin-top: 60%;
+  color: white;
+  margin-left: 20px;
+  padding: 1px;
+  display: flex;
+  font-size:20px;
+
+}
+.texto3 {
+  color: #fff;
+  /*position: relative;*/
+  background: #434343;
+  height:240px;
+  width: 360px;
+  font-size: 20px;
+  margin-left: 2%;
+  display: flex;
+
+}
+.texto3 span{
+  color: white;
+  margin-top: 50%;
+  margin-left: 20px;
+  padding: 1px;
+  display: flex;
+  font-size:20px;
+
+}
+.texto4 {
+  color: #fff;
+
+  background: red  ;
+  height:90px;
+  width: 300px;
+  font-size: 20px;
+  margin-left: 43px;
+   margin-top: 0;
+   float: left;
+
+}
+.imagen4{
+  position:flex;
   height: 100px;
+  margin-left: 80%;
+  margin-top: 1px;
+}
+.texto5{
+   color: #fff;
+    background: #2980B9;
+    height:250px;
+    width: 600px;
+    font-size: 30px;
+    margin-top: 10px;
+    display: flex;
+    float: right;
+}
+.texto5 span{
+  color: white;
+  margin-top: 34%;
+  margin-left: 20px;
+  padding: 1px;
+  display: flex;
+  font-size:20px;
+
+}
+.texto6{
+   color: #fff;
+    background: #2980B9;
+    height:200px;
+    width: 600px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 400px;
+    display: inline-flex;
+    /*position: relative;*/
+
+}
+.texto6 span{
+  color: white;
+  margin-top: 26%;
+  margin-left: 20px;
+  padding: 1px;
+  display: flex;
+  font-size:20px;
+
+}
+.top{
+  margin-left: 31%;
+  display: flex;
+  overflow: hidden;
 }
