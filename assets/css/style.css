@@ -1,53 +1,7 @@
 *{
-  /*outline: 1px solid black;*/
+  outline: 1px solid black;
   padding: 0;
   margin: 0;
-}
-.buscar {
-  background: white;
-  position: relative;
-  margin-top: 4px;
-}
-
-.icon-twitter{
-  display: inline;
-  position: relative;
-    font-size: 30px;
-    color: #fff;
-    margin-left: 600px;
-    margin-top:20px;
-
-  }
-
-.icon-facebook2{
-  display: inline;
-  position: relative;
-    font-size: 30px;
-    color: #fff;
-    margin-left: 20px;
-    margin-top:2px;
-
-}
-.icon-instagram{
-  display: inline;
-  position: relative;
-    font-size: 30px;
-    color: #fff;
-    margin-left: 20px;
-    margin-top:2px;
-
-}
-.icon-youtube{
-  display: inline;
-  position: relative;
-    font-size: 30px;
-    color: #fff;
-    margin-left: 20px;
-    margin-top:2px;
-}
-.icons-prins{
-  top: 0;
-  position: absolute;
 }
 header{
 position: fixed;
@@ -55,34 +9,87 @@ background: white;
 width: 85em;
 height: 8em;
 top: 0;
-/*color: #fff;*/
 background-color:#CD0000;
 
 }
-.buscar{
-  margin-top: 0px;
-  margin-left: 80%;
+.buscar {
+  top: 20%;
+  left: 80%;
+  border-radius: 10px;
+  position: absolute;
+  padding: 10px 10px;
+  color: white;
+  border-style:solid;
+  background: transparent;
+  font-size: 15px;
+  border-radius: 12px;
+}
+.search{
+  width: 3%;
+  height: 30px;
+  position: absolute;
+  overflow: hidden;
+  left:92%;
+  top: 24%;
+
+}
+.icon-twitter{
+  display: inline;
+  position: relative;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 610px;
+    margin-top:28px;
+
+  }
+
+.icon-facebook2{
+  display: inline;
+  position: relative;
+    font-size: 20px;
+    margin-left: 680px;
+    margin-top:28px;
+
+}
+.icon-instagram{
+  display: inline;
+  position: relative;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 750px;
+    margin-top:28px;
+
+}
+.icon-youtube{
+  display: inline;
+  position: relative;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 820px;
+  margin-top:28px;
+}
+#icons-prins{
+  top: -30%;
   position: absolute;
 }
+#ico{
 
+  position: absolute;
+  color: white;
+  border-radius:60px; 
+  border-style:solid;
+  padding: 10px;
+  top: 40px;
+}
 .logo{
   position: flex;
 	left: 0;
 	margin-top: 20px;
-	width: 90px;
-	height: 50px;
-	padding: 0.4% 10%;
-  margin-left: 40px;
-	background-repeat : no-repeat;
-  background-image: url(../img/logo.png);
+	width: 25%;
+	height: 80px;
+	padding:0% 4%;
+  left: 40px;
 }
-.logo img{
-  display: inline;
-  position: flex;
-  color: #fff;
-  margin-left: 80%;
-}
-
 ul {
   background-color:#434343;
   margin-top:0px;
