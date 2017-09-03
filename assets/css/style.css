@@ -3,15 +3,28 @@
   padding: 0;
   margin: 0;
 }
+body{
+  background: #C5BEBE;
+}
 header{
 position: fixed;
 background: white;
 width: 85em;
-height: 8em;
+height: 6.5em;
 top: 0;
 background-color:#CD0000;
 
 }
+.logo{
+  position: flex;
+  left: 0;
+  margin-top: 20px;
+  width: 25%;
+  height: 80px;
+  padding:0% 4%;
+  left: 40px;
+}
+/***********************************input de busqueda*/
 .buscar {
   top: 20%;
   left: 80%;
@@ -33,6 +46,8 @@ background-color:#CD0000;
   top: 24%;
 
 }
+
+/************************************iconos del header*/
 .icon-twitter{
   display: inline;
   position: relative;
@@ -81,15 +96,7 @@ background-color:#CD0000;
   padding: 10px;
   top: 40px;
 }
-.logo{
-  position: flex;
-	left: 0;
-	margin-top: 20px;
-	width: 25%;
-	height: 80px;
-	padding:0% 4%;
-  left: 40px;
-}
+/********************************************navegadores */
 ul {
   background-color:#434343;
   margin-top:0px;
@@ -101,21 +108,20 @@ ul {
   display: block;
 }
 .enlaces{
-  top: 20px;
-position: absolute;
+  top: 8px;
+  margin-top: 98px;
+  position: absolute;
 }
 .opciones a {
   text-decoration: none;
-  margin-left: 20px;
   margin-right: 20px;
 background-color:  2px solid white;
 
 }
 li{
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
     list-style: none;
-
 }
 li:hover{
     background-color: red;
@@ -123,28 +129,105 @@ li:hover{
 a{
     color:whitesmoke;
     text-decoration: none;
-    padding: 8px;
+    padding: 6px;
 
 }
 option{
-  background-color: #fff;
+  background-color: black;
+  color:white;
   width: 40px;
   height: 40px;
 }
 
-
-.enlaces {
-  margin-top: 98px;
+/******************************************seccion de noticias*/
+ #section{
+  width: 70em;
+  height:53em;
+   margin-left: 120px;
+   background: white;
+  
+}
+.odebrecht{
+  width: 55%;
+  height: 270px;
+  padding: 2%;
+  background: yellow;
+  margin-top: 14%;
+  margin-left:4%;
+  float: left;
+}
+.editorial{
+   width: 29%;
+  height:80px;
+  background: yellow;
+  margin-top: 14%;
+  margin-right: 4%;
+  float: right;
 
 }
-section{
-  margin-right: 10px;
-  width: 80em;
-  height:90em;
-   margin-left: 20px;
-   margin-right:20px;
+.prision{
+   width: 27%;
+  height: 200px;
+  padding: 1%;
+  background: yellow;
+  margin-top: 1%;
+  margin-left:4%;
+  float: left;
+
 }
-.texto1 {
+.aramayo{
+   width: 27%;
+  height: 300px;
+  padding: 1%;
+  background: yellow;
+  margin-top: 1%;
+  margin-left: 4%;
+  margin-right: 10%;
+  float: left;
+
+}
+.corea{
+   width: 26%;
+  height: 300px;
+  padding: 1%;
+  background: yellow;
+  margin-top: 1%;
+  margin-left: -8%;
+  float: left;
+}
+.deporte{
+  width: 28%;
+  height: 150px;
+  padding: 1%;
+  background: yellow;
+  margin-top: 1%;
+  margin-left: 0%;
+  margin-right: 4%;
+  float: right;
+}
+.publicidad{
+  width: 28%;
+  height: 110px;
+  padding: 1%;
+  background: yellow;
+  margin-top: 1%;
+  margin-left: 0%;
+  margin-right: 4%;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.texto1 {
    color: #fff;
     background: #434343;
     height:300px;
@@ -187,7 +270,6 @@ section{
 }
 .texto3 {
   color: #fff;
-  /*position: relative;*/
   background: #434343;
   height:240px;
   width: 360px;
@@ -251,7 +333,6 @@ section{
     margin-top: 40px;
     margin-left: 400px;
     display: inline-flex;
-    /*position: relative;*/
 
 }
 .texto6 span{
@@ -268,3 +349,4 @@ section{
   display: flex;
   overflow: hidden;
 }
+*/
