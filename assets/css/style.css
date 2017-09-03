@@ -38,7 +38,7 @@ background-color:#CD0000;
   border-radius: 12px;
 }
 .search{
-  width: 3%;
+  width: 2.5%;
   height: 30px;
   position: absolute;
   overflow: hidden;
@@ -157,7 +157,7 @@ option{
   float: left;
 }
 .editorial{
-   width: 29%;
+   width: 30%;
   height:80px;
   background: yellow;
   margin-top: 14%;
@@ -166,12 +166,12 @@ option{
 
 }
 .prision{
-   width: 27%;
+   width: 28%;
   height: 200px;
   padding: 1%;
   background: yellow;
   margin-top: 1%;
-  margin-left:4%;
+  margin-left:3%;
   float: left;
 
 }
