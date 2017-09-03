@@ -1,5 +1,5 @@
 *{
-  outline: 1px solid black;
+  /*outline: 1px solid black;*/
   padding: 0;
   margin: 0;
   font-family: 'Istok Web', sans-serif;
@@ -28,7 +28,7 @@ background-color:#CD0000;
 }
 /***********************************input de busqueda*/
 .buscar {
-  top: 20%;
+  top: 32%;
   left: 80%;
   border-radius: 10px;
   position: absolute;
@@ -44,8 +44,8 @@ background-color:#CD0000;
   height: 30px;
   position: absolute;
   overflow: hidden;
-  left:92%;
-  top: 24%;
+  left:91%;
+  top: 37%;
 
 }
 
@@ -110,8 +110,8 @@ ul {
   display: block;
 }
 .enlaces{
-  top: 8px;
-  margin-top: 98px;
+  top: 7px;
+  margin-top: 97px;
   position: absolute;
 }
 .opciones a {
@@ -126,12 +126,12 @@ li{
     list-style: none;
 }
 li:hover{
-    background-color: red;
+    background-color:#CD0000;
 }
 a{
     color:whitesmoke;
     text-decoration: none;
-    padding: 6px;
+    padding: 20px;
 
 }
 option{
@@ -153,8 +153,9 @@ option{
 .odebrecht{
   width: 59%;
   height: 300px;
-  background: #949090;
+  background: #434343;
   color: #fff;
+  text-align: center;
   margin-top: 16%;
   margin-left:4%;
   font-size: 30px;
@@ -172,9 +173,10 @@ option{
 .odebrecht span{
 
   color: white;
-  margin-left: 3px;
+  margin-left: 8px;
   display: inline-block;
   margin-top: 40%;
+  top: -8px;
   padding: 5px;
   font-size:18px;
 
@@ -184,6 +186,7 @@ option{
   color: white;
   border-radius:80px; 
   border-style:solid;
+  background: #746F6F;
  
   
 }
@@ -192,202 +195,216 @@ option{
 
 
 .editorial{
-   width: 30%;
+  width: 30%;
   height:80px;
-  background: yellow;
+  background: #CD0000;
+  color: #fff;
   margin-top: 16%;
   margin-right: 4%;
   float: right;
 
 }
+
+.img2{
+  position:flex;
+  height: 90px;
+  margin-left: 84%;
+  overflow: auto;
+  margin-top: -22%;
+}
+
+
 #editor{
   background: white;
   color: red;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
+
+
+
+/***************************tercera caja sobre el caso de prision*/
+
+
 .prision{
    width: 28%;
   height: 200px;
   padding: 1%;
-  background: yellow;
   margin-top: 1%;
   margin-left:3%;
   float: left;
+  font-size: 19px;
+  display: inline;
+  color:white; 
+  background: #2980B9;
 
 }
+.img3{
+ 
+  width: 50%;
+  height: 222px;
+  display: flex;
+  overflow: auto;
+  margin-left:168px;
+  margin-top: -67.8%;
+}
+
+.prision span{
+  color: white;
+  margin-left: 0px;
+  font-size:18px;
+  top: 2%;
+  display: inline-block;
+}
+#pris-ico{
+  position: relative;
+  color: white;
+  padding: 4px;
+  background: #746F6F;
+   margin-top: 8%;
+  border-radius:80px; 
+  border-style:solid;
+ }
+
+
+
+/****************cuarta caja sobre el caso de extorcion fujimorista */
 .aramayo{
    width: 27%;
-  height: 300px;
-  padding: 1%;
-  background: yellow;
+  height: 320px;
+  background: #434343;
+  color: white;
+  font-size:20px; 
   margin-top: 1%;
   margin-left: 4%;
   margin-right: 10%;
   float: left;
 
 }
+ .img4{
+  display: flex;
+  overflow: auto;
+  width: 100%;
+  height: 180px;
+  margin-left: 0px;
+}
+
+.aramayo span{
+
+  color: white;
+  left: 50%;
+  margin-left: 4px;
+  display: inline-block;
+  margin-top: 1px;
+  padding: 5px;
+  font-size:18px;
+
+}
+#aram-ico{
+  position: relative;
+  color: white;
+  border-radius:80px; 
+  border-style:solid;
+  background: #746F6F;
+}
+
+
+/************************quinta  caja  del tema  de Corea del norte*/
 .corea{
-   width: 26%;
-  height: 300px;
-  padding: 1%;
-  background: yellow;
+   width: 30%;
+  height: 320px;
+  background: #434343;
+  color: white;
+  font-size: 20px;
   margin-top: 1%;
   margin-left: -8%;
   float: left;
 }
+.img5{
+  display: flex;
+  overflow: auto;
+  width: 100%;
+  height: 180px;
+  margin-left: 0px;
+}
+
+.corea span{
+
+  color: white;
+  left: 50%;
+  left:55%;
+  margin-left: 4px;
+  display: inline-block;
+  margin-top: 1px;
+  padding: 5px;
+  font-size:18px;
+
+}
+#corea-ico{
+  position: relative;
+  color: white;
+  border-radius:80px; 
+  border-style:solid;
+  background: #746F6F;
+}
+
+
+/***************sexta caja  que trata sobre el tema del deportes de Madrid y Bayem */
+
 .deporte{
   width: 28%;
-  height: 150px;
+  height: 188px;
   padding: 1%;
-  background: yellow;
+  background: #2980B9;
+  color:white;
+  font-size: 19px;
   margin-top: 1%;
   margin-left: 0%;
   margin-right: 4%;
   float: right;
 }
+
+.img6{
+ 
+  width: 50%;
+  height: 210px;
+  display: flex;
+  overflow: auto;
+  margin-left:168px;
+  margin-top: -62%;
+}
+
+.deporte span{
+  color: white;
+  margin-left: 0px;
+  font-size:18px;
+  top: 2%;
+  display: inline-block;
+}
+#sport-ico{
+  position: relative;
+  color: white;
+  padding: 4px;
+  background: #746F6F;
+   margin-top: 10%;
+  border-radius:80px; 
+  border-style:solid;
+ }
+
+
+/****************************************publicidad*/
 .publicidad{
-  width: 28%;
-  height: 110px;
-  padding: 1%;
-  background: yellow;
+  width: 30%;
+  height: 100px;
   margin-top: 1%;
   margin-left: 0%;
   margin-right: 4%;
   float: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/*.texto1 {
-   color: #fff;
-    background: #434343;
-    height:300px;
-    width: 240px;
-    font-size: 30px;
-    margin-top: 360px;
-    display: flex;
-}
-.texto1 span{
-
-  color: white;
-  margin-top: 100%;
-  margin-left: 2px;
-  padding: 1px;
-  display: flex;
-  font-size:20px;
-
-}
-.texto2 {
-  color: #fff;
-   background: #434343;
-    height:200px;
-    width: 280px;
-    font-size: 20px;
-    margin-top: 220px;
-    display: flex;
-    float: left;
-    margin-left: 3px;
-
-
-}
-.texto2 span{
-  margin-top: 60%;
-  color: white;
-  margin-left: 20px;
-  padding: 1px;
-  display: flex;
-  font-size:20px;
-
-}
-.texto3 {
-  color: #fff;
-  background: #434343;
-  height:240px;
-  width: 360px;
-  font-size: 20px;
-  margin-left: 2%;
-  display: flex;
-
-}
-.texto3 span{
-  color: white;
-  margin-top: 50%;
-  margin-left: 20px;
-  padding: 1px;
-  display: flex;
-  font-size:20px;
-
-}
-.texto4 {
-  color: #fff;
-
-  background: red  ;
-  height:90px;
-  width: 300px;
-  font-size: 20px;
-  margin-left: 43px;
-   margin-top: 0;
-   float: left;
-
-}
-.imagen4{
-  position:flex;
-  height: 100px;
-  margin-left: 80%;
-  margin-top: 1px;
-}
-.texto5{
-   color: #fff;
-    background: #2980B9;
-    height:250px;
-    width: 600px;
-    font-size: 30px;
-    margin-top: 10px;
-    display: flex;
-    float: right;
-}
-.texto5 span{
-  color: white;
-  margin-top: 34%;
-  margin-left: 20px;
-  padding: 1px;
-  display: flex;
-  font-size:20px;
-
-}
-.texto6{
-   color: #fff;
-    background: #2980B9;
-    height:200px;
-    width: 600px;
-    font-size: 20px;
-    margin-top: 40px;
-    margin-left: 400px;
-    display: inline-flex;
-
-}
-.texto6 span{
-  color: white;
-  margin-top: 26%;
-  margin-left: 20px;
-  padding: 1px;
-  display: flex;
-  font-size:20px;
-
-}
 .top{
-  margin-left: 31%;
+  width: 100%;
+  height: 100px;
   display: flex;
   overflow: hidden;
 }
-*/
