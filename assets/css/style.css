@@ -2,6 +2,8 @@
   outline: 1px solid black;
   padding: 0;
   margin: 0;
+  font-family: 'Istok Web', sans-serif;
+  font-family: 'Hammersmith One', sans-serif;
 }
 body{
   background: #C5BEBE;
@@ -96,7 +98,7 @@ background-color:#CD0000;
   padding: 10px;
   top: 40px;
 }
-/********************************************navegadores */
+/***************************************navegadores */
 ul {
   background-color:#434343;
   margin-top:0px;
@@ -139,7 +141,7 @@ option{
   height: 40px;
 }
 
-/******************************************seccion de noticias*/
+/*****************************seccion de noticias*/
  #section{
   width: 70em;
   height:53em;
@@ -147,23 +149,62 @@ option{
    background: white;
   
 }
+/**************primera caja SOBRE CASO DE LAVA JATO  */
 .odebrecht{
-  width: 55%;
-  height: 270px;
-  padding: 2%;
-  background: yellow;
-  margin-top: 14%;
+  width: 59%;
+  height: 300px;
+  background: #949090;
+  color: #fff;
+  margin-top: 16%;
   margin-left:4%;
+  font-size: 30px;
   float: left;
+  display: flex;
 }
+ .img1{
+  display: flex;
+  overflow: auto;
+  width: 60%;
+  height: 300px;
+  margin-left: 12px;
+}
+
+.odebrecht span{
+
+  color: white;
+  margin-left: 3px;
+  display: inline-block;
+  margin-top: 40%;
+  padding: 5px;
+  font-size:18px;
+
+}
+#odeb-ico{
+  position: relative;
+  color: white;
+  border-radius:80px; 
+  border-style:solid;
+ 
+  
+}
+
+/****************************segunda caja sobre EDITORIAL*/
+
+
 .editorial{
    width: 30%;
   height:80px;
   background: yellow;
-  margin-top: 14%;
+  margin-top: 16%;
   margin-right: 4%;
   float: right;
 
+}
+#editor{
+  background: white;
+  color: red;
+  font-size: 30px;
+  text-align: center;
 }
 .prision{
    width: 28%;
