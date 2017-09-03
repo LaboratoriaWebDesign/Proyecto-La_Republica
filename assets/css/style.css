@@ -117,7 +117,7 @@ ul {
 .opciones a {
   text-decoration: none;
   margin-right: 20px;
-background-color:  2px solid white;
+  background-color:  2px solid white;
 
 }
 li{
@@ -145,8 +145,8 @@ option{
  #section{
   width: 70em;
   height:53em;
-   margin-left: 120px;
-   background: white;
+  margin-left: 120px;
+  background: white;
   
 }
 /**************primera caja SOBRE CASO DE LAVA JATO  */
